@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "pls inter name of file to chmod"
+read var
+chmod u+x ${var}
