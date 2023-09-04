@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "pls inter file-name:"
+read name
+echo "#!/bin/bash
+" > ${name}
+vi ${name}
+chmod +x ${name}
