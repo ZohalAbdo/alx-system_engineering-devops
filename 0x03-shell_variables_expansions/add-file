@@ -4,3 +4,5 @@ read var
 echo "#!/bin/bash
 " > ${var}
 vi ${var}
+chmod u+x ${var}
+
