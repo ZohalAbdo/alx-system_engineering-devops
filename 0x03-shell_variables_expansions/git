@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "input message:"
+read var
+git add .
+git commit -m "${var}"
+git push
+chmod +x git
