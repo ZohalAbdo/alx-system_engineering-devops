@@ -1,2 +1,2 @@
 i#!/bin/bash
-PATH=$PATH:/action
+echo $PATH | tr ':' '\n' | wc -l
